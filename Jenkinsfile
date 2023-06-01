@@ -3,7 +3,7 @@ pipeline {
          stages {
              stage( "gt check out "){
                  steps{
-                     script{git branch: 'main', url: 'https://github.com/vikash-kumar01/mrdevops_javaapplication.git'}
+                     script{git branch: 'main', url: 'https://github.com/lavanyaprashola/first-level.git'}
                  }
                }
              }
