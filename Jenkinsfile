@@ -15,9 +15,9 @@ agent any
                  
    stage ('Build')  {
 	 steps {
-      dir('src'){
-            sh "mvn package"
-          }
+      
+            sh "mvn clean install"
+          
         }    
    }
   
